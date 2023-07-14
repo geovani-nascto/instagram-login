@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.images{
+    position: relative;
+}
+
+.img-smartphone{
+    width: 450px;
+}
+
+.img-insta{
+    height: 520px;
+    position: absolute;
+    top: 26px;
+    left: 153px;
+    transition: ease-in-out 2s;
+}
+
+.container-content{
+    width: 350px;
+}
+
+.container--login{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d3d3d3;
+    padding: 50px 40px 20px 40px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    margin-bottom: 40px;
+    width: 160px;
+    align-self: center;
+}
+
+.container--login form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.container--login form input{
+    height: 36px;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    padding: 0 10px;
+    background-color: #fafafa;
+}
+
+.container--login form input:nth-child(1){
+    margin-bottom: 5px;
+}
+
+.container--login form input:nth-child(2){
+    margin-bottom: 15px;
+}
+
+.container--login form button{
+    background-color: #0095f6;
+    color: #fff;
+    height: 36px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.container--login .div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.container--login .div hr{
+    width: 100%;
+    height: 1px;
+    border-color: #d3d3d35d;
+}
+
+.container--login p{
+    margin: 0 20px;
+    color: #757474;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.container--login .link---facebook{
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container--login .link---password{
+    color: #385185;
+    text-align: center;
+    font-size: 12px;
+}
+
+.container--signin{
+    border: 1px solid #d3d3d3;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.container--signin a{
+    color: #0095f6;
+    font-weight: bold;
+}
+
+.container--apps{
+    text-align: center;
+    padding: 0 40px;
+}
+
+.container--apps > p{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.container--apps .btn---downloads{
+    display: flex;
+    gap: 5px;
+}
+
+.container--apps .btn---downloads button{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 6px 12px;
+    background-color: #111;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+.container--apps .btn---downloads button img{
+    width: 20px;
+    margin-right: 5px;
+}
+
+.container--apps .btn---downloads button #logo-apple{
+    filter: invert(1);
+}
+
+.container--apps .btn---downloads .btn----text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    color: #fff;
+}
+
+.container--apps .btn---downloads .btn----text p{
+    font-size: 16px;
+}
+
+.container--apps .btn---downloads .btn----text .text-p{
+    font-size: 9px;
+}
+
+.container--apps .btn---downloads .btn----text .text-g{
+    font-weight: bold;
+    font-size: 14px;
+}
