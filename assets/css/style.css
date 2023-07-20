@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 95vh;
+    height: 90vh;
     background-color: #fafafa;
 }
 
@@ -103,11 +103,25 @@
     font-size: 12px;
 }
 
+.container--login .login-fb{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container--login .login-fb img{
+    width: 16px;
+    height: 16px;
+}
+
 .container--login .link---facebook{
     color: #385185;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 10px;
+    font-size: 14px;
 }
 
 .container--login .link---password{
@@ -186,11 +200,55 @@
 }
 
 .footer{
-    height: 5vh;
+    height: 10vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.footer ul{
+.footer .footer-links{
     display: flex;
-    gap: 10px;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .footer-links li a,
+.footer .footer-lang li{
+    font-size: 12px;
+    color: #757474;
+}
+
+.footer .footer-lang{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footer .footer-lang select{
+    cursor: pointer;
+    border: 0;
+    color: #757474;
+    background-color: transparent;
+    outline: none;
+}
+
+@media (max-width: 870px){
+    .main{
+        height: 80vh;
+    }
+    .main .images{
+        display: none;
+    }
+    .footer{
+        height: 20vh;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 450px){
+    .container--login, .container--signin{
+        border: 0;
+    }
 }
