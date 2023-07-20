@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    list-style: none;
 }
 
 .main{
@@ -11,7 +12,7 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: 95vh;
     background-color: #fafafa;
 }
 
@@ -149,7 +150,7 @@
     flex: 1;
     padding: 6px 12px;
     background-color: #111;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
     border: none;
 }
@@ -182,4 +183,14 @@
 .container--apps .btn---downloads .btn----text .text-g{
     font-weight: bold;
     font-size: 14px;
+}
+
+.footer{
+    height: 5vh;
+    width: 100vw;
+}
+
+.footer ul{
+    display: flex;
+    gap: 10px;
 }
